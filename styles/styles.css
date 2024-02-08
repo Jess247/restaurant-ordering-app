@@ -1,3 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-} 
+  font-family: "Smythe", sans-serif;
+}
+
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url("../assets/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #eae7e7;
+  margin: 0;
+  padding: 2em;
+}
+.header .main-heading {
+  margin: 0;
+}
+.header .sub-heading {
+  font-size: 1em;
+}
+
+.main {
+  padding: 1em 0.5em;
+}
+.main .menu_item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 0;
+}
+.main .menu_item .item_content {
+  display: flex;
+  gap: 20px;
+}
+.main .menu_item .item_text {
+  font-size: 0.8rem;
+  padding: 0.5em 0;
+  color: #bdbdbd;
+}
+.main .menu_item .icon {
+  width: 50px;
+}
+.main .menu_item .item_btn {
+  border: 1px solid #bdbdbd;
+  border-radius: 50%;
+  padding: 1em;
+}
+.main .menu_item .item_btn .fa-plus {
+  font-size: 1em;
+}
+.main .item_seperator {
+  border: 0.5px solid #bdbdbd;
+  border-radius: 1px;
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=styles.css.map */
