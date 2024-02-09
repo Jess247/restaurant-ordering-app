@@ -29,6 +29,14 @@ body {
 
 .main {
     padding: 1em 0.5em;
+
+    .item_hr {
+        border: none;
+        border-top: .5px solid $secondary-clr;
+        border-radius: 1px;
+        opacity: .8;
+    }
+    
     .menu_item {
         width: 100%;
         display: flex;
@@ -59,13 +67,6 @@ body {
             }
         }
 
-    }
-
-    .item_hr {
-        border: none;
-        border-top: .5px solid $secondary-clr;
-        border-radius: 1px;
-        opacity: .8;
     }
 
     .order-section{
