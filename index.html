@@ -59,6 +59,33 @@
                     </div>
                     <hr class="item_seperator">
                 </div>
+                <section class="order-section hidden">
+                    <h3>Your order</h3>
+                    <div class="ordered-items">
+                        <div>
+                            <p class="ordered-item">Pizza</p>
+                            <button class="remove-btn" id="remove-btn">remove</button>
+                        </div>
+                        <p id="ordered-item-price">$14</p>
+                    </div>
+                    <div class="total-price-container">
+                        <p class="total-par">Total price:</p>
+                        <p id="total-price" class="total-price">$14</p>
+                    </div>
+                    <button class="btn" id="complete-order-btn">Complete order</button>
+                </section>
+                <section class="modal hidden">
+                    <h3 class="modal-heading">Enter card details</h3>
+                    <form class="form">
+                        <input type="text" placeholder="enter your name">
+                        <input type="text" placeholder="enter card number">
+                        <input type="text" placeholder="enter CVV">
+                        <button class="btn" type="submit">Pay</button>
+                    </form>
+                </section>
+                <section class="success-section">
+                    <p class="success-msg">Thanks, NAME! Your order is on its way!</p>
+                </section>
             </main>
         </div>
 	<script src="./js/script.js" type="module"></script>
