@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -60,10 +61,55 @@ body {
 .main .menu_item .item_btn .fa-plus {
   font-size: 1em;
 }
-.main .item_seperator {
-  border: 0.5px solid #bdbdbd;
+.main .item_hr {
+  border: none;
+  border-top: 0.5px solid #bdbdbd;
   border-radius: 1px;
   opacity: 0.8;
+}
+.main .order-section {
+  text-align: center;
+  padding: 2em 0;
+}
+.main .order-section h4 {
+  font-size: 1.2em;
+}
+.main .order-section .ordered-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+.main .order-section .ordered-item .separator-solid {
+  border: none;
+  border-top: 2px solid green;
+}
+.main .order-section .ordered-item div {
+  display: flex;
+  gap: 0.5em;
+}
+.main .order-section .ordered-item div .remove-btn {
+  border: none;
+  background: none;
+  color: #bdbdbd;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7em;
+  font-weight: 100;
+}
+.main .order-section .total-price-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+.main .btn {
+  background: #16DB99;
+  color: #ffffff;
+  padding: 0.8em;
+  border: none;
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

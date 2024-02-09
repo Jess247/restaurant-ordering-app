@@ -60,10 +60,65 @@ body {
         }
 
     }
-    .item_seperator {
-        border: .5px solid $secondary-clr;
+
+    .item_hr {
+        border: none;
+        border-top: .5px solid $secondary-clr;
         border-radius: 1px;
         opacity: .8;
-        
+    }
+
+    .order-section{
+        text-align: center;
+        padding: 2em 0;
+
+        h4 {
+            font-size: 1.2em;
+        }
+
+        .ordered-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 1em 0;
+
+            .separator-solid {
+                border: none;
+                border-top: 2px solid green;
+                
+            }
+
+            div {
+                display: flex;
+                gap: .5em;
+                
+
+                .remove-btn {
+                    border: none;
+                    background: none;
+                    color: $secondary-clr;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: .7em;
+                    font-weight: 100;
+                }
+            }
+            
+        }
+
+        .total-price-container{
+            display: flex;
+            justify-content: space-between;
+            padding: 1em 0;
+        }
+    }
+    .btn {
+        background: $accent-clr;
+        color: $light-font-clr;
+        padding: .8em;
+        border: none;
+        border-radius: 3px;
+        font-family: 'Roboto', sans-serif;
+        font-size: .8em;
+        font-weight: bold;
+        width: 100%;
     }
 }
