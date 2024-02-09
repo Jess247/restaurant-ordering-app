@@ -57,7 +57,8 @@ body {
   color: #bdbdbd;
 }
 .main .menu_item .icon {
-  width: 50px;
+  font-size: 3em;
+  margin: auto;
 }
 .main .menu_item .item_btn {
   border: 1px solid #bdbdbd;
@@ -71,6 +72,9 @@ body {
   text-align: center;
   padding: 2em 0;
 }
+.main .order-section h3 {
+  margin-bottom: 1em;
+}
 .main .order-section h4 {
   font-size: 1.2em;
 }
@@ -78,10 +82,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1em 0;
-}
-.main .order-section .ordered-item .separator-solid {
-  border: none;
-  border-top: 2px solid green;
 }
 .main .order-section .ordered-item div {
   display: flex;
@@ -95,10 +95,49 @@ body {
   font-size: 0.7em;
   font-weight: 100;
 }
+.main .order-section .separator-solid {
+  border: none;
+  border-top: 2px solid #0e0e0e;
+}
 .main .order-section .total-price-container {
   display: flex;
   justify-content: space-between;
   padding: 1em 0;
+  margin-bottom: 2em;
+}
+.main .modal {
+  background: #eae7e7;
+  font-family: "Roboto", sans-serif;
+  height: fit-content;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 1em;
+  flex-direction: column;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  box-shadow: 0 0 100px black;
+}
+.main .modal h3 {
+  margin-bottom: 2em;
+}
+.main .modal input {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.5em auto;
+}
+.main .modal .btn {
+  margin-top: 1em;
+}
+.main .success-section {
+  text-align: center;
+  background: #ECFDF5;
+  color: #065F46;
+  padding: 2em;
+  border-radius: 2px;
 }
 .main .btn {
   background: #16DB99;
@@ -110,6 +149,9 @@ body {
   font-size: 0.8em;
   font-weight: bold;
   width: 100%;
+}
+.main .hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

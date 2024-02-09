@@ -25,7 +25,7 @@ function renderPage() {
                 <i class="fa-solid fa-plus" data-btn="${menuItem.name}"></i>                        
             </div>
         </div>
-        <hr class="item_seperator">`).join('')
+        <hr class="item_hr">`).join('')
     menuContainer.innerHTML = menuHtml
 }
 
