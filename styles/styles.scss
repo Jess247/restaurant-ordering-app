@@ -85,8 +85,11 @@ body {
         .ordered-item {
             display: flex;
             justify-content: space-between;
-            padding: 1em 0;
+            padding: .5em 0;
 
+            &:last-of-type {
+                margin-bottom: .5em;
+            }
             div {
                 display: flex;
                 gap: .5em;
